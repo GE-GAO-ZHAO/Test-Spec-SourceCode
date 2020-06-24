@@ -16,6 +16,11 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSInteger)addWithFirstDigital:(NSInteger)firstDigital secondDigital:(NSInteger)secondDigital;
 - (NSInteger)subtractionWithFirstDigital:(NSInteger)firstDigital secondDigital:(NSInteger)secondDigital;
 
+/// V2.0.0
+- (NSInteger)multiplicationWithFirstDigital:(NSInteger)firstDigital secondDigital:(NSInteger)secondDigital;
+- (NSInteger)divisionWithFirstDigital:(NSInteger)firstDigital secondDigital:(NSInteger)secondDigital;
+
+
 @end
 
 NS_ASSUME_NONNULL_END

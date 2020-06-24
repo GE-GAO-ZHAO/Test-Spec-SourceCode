@@ -17,4 +17,12 @@
     return firstDigital - secondDigital;
 }
 
+- (NSInteger)multiplicationWithFirstDigital:(NSInteger)firstDigital secondDigital:(NSInteger)secondDigital {
+    return (firstDigital * secondDigital);
+}
+
+- (NSInteger)divisionWithFirstDigital:(NSInteger)firstDigital secondDigital:(NSInteger)secondDigital {
+    return (firstDigital / secondDigital);
+}
+
 @end
