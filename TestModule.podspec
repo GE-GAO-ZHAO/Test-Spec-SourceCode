@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestModule'
-  s.version          = '1.0.0'
-  s.summary          = 'pod test project'
+  s.version          = '5.0.0'
+  s.summary          = 'TestModule'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -39,4 +39,7 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
-end
+  #s.dependency 'TALMediator', '~> 3.0.0', :git => 'https://github.com/MY_COMPANY/pod1.git', :commit => '9f9f4fe5b5959e0f2ea89e472eccf7aea6f37eea'
+  s.dependency 'SDWebImage'
+
+endpo

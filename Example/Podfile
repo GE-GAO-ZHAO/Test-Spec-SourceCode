@@ -1,4 +1,4 @@
-
+source 'https://github.com/GE-GAO-ZHAO/GGZMediator.git'
 use_frameworks!
 
 platform :ios, '8.0'

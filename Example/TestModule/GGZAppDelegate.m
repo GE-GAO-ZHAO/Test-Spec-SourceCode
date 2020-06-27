@@ -13,6 +13,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+
+    NSLog(@"aaa: %@",[NSBundle mainBundle].resourcePath);
+
+
     return YES;
 }
 
