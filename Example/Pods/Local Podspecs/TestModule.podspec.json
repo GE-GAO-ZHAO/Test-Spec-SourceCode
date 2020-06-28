@@ -16,19 +16,17 @@
     "tag": "5.0.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "TestModule/Classes/**/*",
-  "frameworks": [
-    "UIKit",
-    "Foundation"
-  ],
   "dependencies": {
     "SDWebImage": [
 
-    ],
-    "GGZMediator": [
-      "~> 3.0.0"
     ]
-  }
+  },
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "TestModule/Classes/Core/*.{h,m}"
+    }
+  ]
 }

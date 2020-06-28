@@ -28,9 +28,11 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/GE-GAO-ZHAO/Test-Spec-SourceCode.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
-  s.source_files = 'TestModule/Classes/**/*'
+  s.subspec 'Core' do |ss|
+    ss.source_files = 'TestModule/Classes/Core/*.{h,m}'
+  end
   
   # s.resource_bundles = {
   #   'TestModule' => ['TestModule/Assets/*.png']
@@ -39,7 +41,7 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
 
   # 依赖的公开framework
-  s.frameworks = 'UIKit', 'Foundation'
+  #s.frameworks = 'UIKit', 'Foundation'
 
   # 依赖的私有的framework
 
@@ -48,13 +50,13 @@ TODO: Add long description of the pod here.
   # 依赖的私有的 .a
 
   # 依赖公开库
-  #s.dependency 'SDWebImage'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'SDWebImage'
+  #s.dependency 'AFNetworking', '~> 2.3'
 
   # 依赖其他的私有库
-  s.dependency 'TestPodSourceLayered'
+  #s.dependency 'TestPodSourceLayered'
 
   # 是否支持ARC
-  s.requires_arc = true
+  #s.requires_arc = true
 
 end
