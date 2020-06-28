@@ -1,25 +1,35 @@
 PODS:
-  - SDWebImage (5.8.1):
-    - SDWebImage/Core (= 5.8.1)
-  - SDWebImage/Core (5.8.1)
-  - TestModule (5.0.0):
-    - SDWebImage
+  - TALMediator (4.0.0):
+    - TALMediator/Categary (= 4.0.0)
+  - TALMediator/Categary (4.0.0)
+  - TestModule (5.0.1):
+    - TALMediator
+    - TestModule/MediatorCategary (= 5.0.1)
+    - TestModule/ModuleABussiness (= 5.0.1)
+    - TestModule/TargetAction (= 5.0.1)
+  - TestModule/MediatorCategary (5.0.1):
+    - TALMediator
+  - TestModule/ModuleABussiness (5.0.1):
+    - TALMediator
+  - TestModule/TargetAction (5.0.1):
+    - TALMediator
+    - TestModule/ModuleABussiness
 
 DEPENDENCIES:
   - TestModule (from `../`)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
-    - SDWebImage
+  https://github.com/GE-GAO-ZHAO/TALComponentTest-Spec.git:
+    - TALMediator
 
 EXTERNAL SOURCES:
   TestModule:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SDWebImage: e3eae2eda88578db0685a0c88597fdadd9433f05
-  TestModule: cd21253ace0451bae7be58a6c20eb23a5e1c3e1d
+  TALMediator: 26fbcbe056c8685538247a0d9bfaba8fc6f99dcb
+  TestModule: 6a114750a039d768e982fc287958bca116ef45e9
 
-PODFILE CHECKSUM: 38ace033b80e29eb67c7c632e11fa1bb60fd7e9d
+PODFILE CHECKSUM: 4c46f8d7fa1c94f8301771abbd3b600c6083f5df
 
 COCOAPODS: 1.8.4

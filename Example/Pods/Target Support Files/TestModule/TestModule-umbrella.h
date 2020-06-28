@@ -10,7 +10,10 @@
 #endif
 #endif
 
+#import "CTMediator+GGZMediatorModuleA.h"
 #import "GGZComputerTool.h"
+#import "GGZModuleAViewControllerA.h"
+#import "Target_ModelA.h"
 
 FOUNDATION_EXPORT double TestModuleVersionNumber;
 FOUNDATION_EXPORT const unsigned char TestModuleVersionString[];

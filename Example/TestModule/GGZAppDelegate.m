@@ -7,6 +7,7 @@
 //
 
 #import "GGZAppDelegate.h"
+#import "GGZViewController.h"
 
 @implementation GGZAppDelegate
 
@@ -14,8 +15,12 @@
 {
     // Override point for customization after application launch.
 
-    NSLog(@"aaa: %@",[NSBundle mainBundle].resourcePath);
+    GGZViewController *viewController = [[GGZViewController alloc] init];
+    UINavigationController *nv = [[UINavigationController alloc] initWithRootViewController:viewController];
+    nv.navigationBar.backgroundColor = [UIColor lightGrayColor];
+    self.window.rootViewController = nv;
 
+    [self.window makeKeyAndVisible];
 
     return YES;
 }
