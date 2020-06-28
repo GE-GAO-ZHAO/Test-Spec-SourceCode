@@ -1,4 +1,6 @@
-source 'https://github.com/GE-GAO-ZHAO/GGZMediator.git'
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/GE-GAO-ZHAO/TALComponentTest-Spec.git'
+
 use_frameworks!
 
 platform :ios, '8.0'

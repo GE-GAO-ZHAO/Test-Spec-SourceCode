@@ -37,9 +37,24 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'UIKit', 'Foundation'
-  # s.dependency 'AFNetworking', '~> 2.3'
-  #s.dependency 'TALMediator', '~> 3.0.0', :git => 'https://github.com/MY_COMPANY/pod1.git', :commit => '9f9f4fe5b5959e0f2ea89e472eccf7aea6f37eea'
-  s.dependency 'SDWebImage'
 
-endpo
+  # 依赖的公开framework
+  s.frameworks = 'UIKit', 'Foundation'
+
+  # 依赖的私有的framework
+
+  # 依赖的公开的.a
+
+  # 依赖的私有的 .a
+
+  # 依赖公开库
+  #s.dependency 'SDWebImage'
+  # s.dependency 'AFNetworking', '~> 2.3'
+
+  # 依赖其他的私有库
+  s.dependency 'TestPodSourceLayered'
+
+  # 是否支持ARC
+  s.requires_arc = true
+
+end

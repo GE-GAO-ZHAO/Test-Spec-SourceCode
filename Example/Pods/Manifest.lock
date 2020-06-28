@@ -1,16 +1,25 @@
 PODS:
-  - TestModule (1.0.0)
+  - SDWebImage (5.8.1):
+    - SDWebImage/Core (= 5.8.1)
+  - SDWebImage/Core (5.8.1)
+  - TestModule (5.0.0):
+    - SDWebImage
 
 DEPENDENCIES:
   - TestModule (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SDWebImage
 
 EXTERNAL SOURCES:
   TestModule:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TestModule: 6a288df65a4b0dc4c9a3b68e5fd5c60a7ac355d0
+  SDWebImage: e3eae2eda88578db0685a0c88597fdadd9433f05
+  TestModule: cd21253ace0451bae7be58a6c20eb23a5e1c3e1d
 
-PODFILE CHECKSUM: a6ad3aac35e5c98ac7618138321aa5220521d5b3
+PODFILE CHECKSUM: 38ace033b80e29eb67c7c632e11fa1bb60fd7e9d
 
 COCOAPODS: 1.8.4
