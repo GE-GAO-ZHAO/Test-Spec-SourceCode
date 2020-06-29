@@ -2,16 +2,16 @@ PODS:
   - TALMediator (4.0.0):
     - TALMediator/Categary (= 4.0.0)
   - TALMediator/Categary (4.0.0)
-  - TestModule (5.0.1):
+  - TestModule (6.0.1):
     - TALMediator
-    - TestModule/MediatorCategary (= 5.0.1)
-    - TestModule/ModuleABussiness (= 5.0.1)
-    - TestModule/TargetAction (= 5.0.1)
-  - TestModule/MediatorCategary (5.0.1):
+    - TestModule/MediatorCategary (= 6.0.1)
+    - TestModule/ModuleABussiness (= 6.0.1)
+    - TestModule/TargetAction (= 6.0.1)
+  - TestModule/MediatorCategary (6.0.1):
     - TALMediator
-  - TestModule/ModuleABussiness (5.0.1):
+  - TestModule/ModuleABussiness (6.0.1):
     - TALMediator
-  - TestModule/TargetAction (5.0.1):
+  - TestModule/TargetAction (6.0.1):
     - TALMediator
     - TestModule/ModuleABussiness
 
@@ -28,7 +28,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   TALMediator: 26fbcbe056c8685538247a0d9bfaba8fc6f99dcb
-  TestModule: 6a114750a039d768e982fc287958bca116ef45e9
+  TestModule: 76aa57910868ad13fe3e52aff60e025d79d38757
 
 PODFILE CHECKSUM: 4c46f8d7fa1c94f8301771abbd3b600c6083f5df
 

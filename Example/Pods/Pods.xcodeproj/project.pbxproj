@@ -7,31 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E9A223AA219D6E57052BB317958B8D8 /* GGZComputerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C92C8C7357E35C21B45762B9FE9BFD3 /* GGZComputerTool.m */; };
+		27DF6D847CDA53AC83F3BB60ED392ED0 /* Target_ModelA.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FED121C3F0BC858563CD8BF3B4E9C31 /* Target_ModelA.m */; };
 		286D3355167301285C8C8030BE5942BA /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 511EE791E15E56C9406044D6E6C50C7D /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2DE8468717F73A3ABBD6CA5538C65B2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2199E23F8A4E231D10E13304970F2E /* Foundation.framework */; };
-		360D969A5DE9E6114A919C7EFD707674 /* Target_ModelA.m in Sources */ = {isa = PBXBuildFile; fileRef = DAFE0FE829CE3480A11680270E978442 /* Target_ModelA.m */; };
+		320000DF966D87C48509BCC54DD21769 /* TargetActionEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = C70E63BAD80BA08AF371B97CD510A875 /* TargetActionEnum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3548E746F9698DF3CEE2F48CAB847E6C /* TestModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 188196E454797554DB5944D96E14EB6F /* TestModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38D4277ABA041B4629EBB1F8176D3989 /* TALMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 117B9ED68F09D5D95240FA29B798646C /* TALMediator-dummy.m */; };
-		4C86D81150736FF2AC30BA32376DA1AF /* CTMediator+GGZMediatorModuleA.h in Headers */ = {isa = PBXBuildFile; fileRef = A9C477B7DA26F49395FC18CC0F668B4E /* CTMediator+GGZMediatorModuleA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		609532B8B391FF4CDE0B850DFC504E68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2199E23F8A4E231D10E13304970F2E /* Foundation.framework */; };
-		6345BF676ABF461284D8DCEDA351E67D /* GGZComputerTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CE6B81F32E25DF152F72FBB9F5895B1 /* GGZComputerTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		68D8BB7717FFAFCEDA6A3675CCDE889C /* CTMediator+GGZMediatorModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = FE65905F538F55410EE4B09A00549665 /* CTMediator+GGZMediatorModuleA.m */; };
-		915D08F15C8B5F1F5200E7E7EFEE6F0B /* GGZComputerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7019D9E80BC3748954909872060B86FC /* GGZComputerTool.m */; };
+		78C2BAAD3251FAB05AF981816D5A459D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2199E23F8A4E231D10E13304970F2E /* Foundation.framework */; };
 		919DC94470C435A53ACD8A4EC60620E1 /* TALMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E58BB30458ACC6890D22D1A1ACC1896C /* TALMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CFCDED9512FF438EDE25AFCE938C8F3 /* GGZModuleAViewControllerA.h in Headers */ = {isa = PBXBuildFile; fileRef = DEBF2DF70A05034AC9ECEDCB013B44B7 /* GGZModuleAViewControllerA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7E71518F48D7D330BCA473605E2290 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D0AFC1413053AA8BCB995767D4E03C3 /* UIKit.framework */; };
+		A5A0E8AE4C7EAE6E3DB48A52C05E4E88 /* GGZModuleAViewControllerA.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9D6F83E856B92AB4566214C4507A30 /* GGZModuleAViewControllerA.m */; };
+		ACF6DFD5E5C435C4E38B7CAD7ECDDAA8 /* GGZComputerTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 444198854FA57F215FB0A1DFB0543269 /* GGZComputerTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B8EBCB923185A058300C9B784D18C1AF /* Pods-TestModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2BD29FA8921DBE4752E6C429FF62982 /* Pods-TestModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C02BB6450A76989F6365F11128A0526B /* TestModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65B7D6997988A6CFBA93068FAAB221E1 /* TestModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9123032834FA2712DDF466994F0258C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2199E23F8A4E231D10E13304970F2E /* Foundation.framework */; };
+		C8FB881A23A7A6A4FE35B4CAFFB8FE6F /* CTMediator+GGZMediatorModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC21CEFD3518C6975369ED964AD1CE6 /* CTMediator+GGZMediatorModuleA.m */; };
 		CA1DF755069B2EABEB3C0ECE1970E018 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA8D778C57632E563B0CA491CFE5639 /* CTMediator.m */; };
-		DD69B2F91F395D78B3B256B9C5DDBA20 /* Target_ModelA.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CF0D706175B8121D17E7AD0B48126A0 /* Target_ModelA.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E4030E67BA5CF929B1E7208801B0BADE /* GGZModuleAViewControllerA.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC9DFE302987C9FA97A631560D79EBD /* GGZModuleAViewControllerA.m */; };
+		CF9579E9D547C54884CF10747C1ACFE8 /* TestModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87643927AA50D28094F8E4A380F7B297 /* TestModule-dummy.m */; };
+		DFE3696911925E347E1B8DBB1AA4BAFD /* Target_ModelA.h in Headers */ = {isa = PBXBuildFile; fileRef = 85FFBF8920B6E8ABAAC18224544A3661 /* Target_ModelA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E73522BEAA04360FAE81A9AB2B92C2CD /* Pods-TestModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A3B8859F687BA53CC5B696BF079F6A /* Pods-TestModule_Example-dummy.m */; };
-		E8F06688F6609144C0A547655BC159DE /* GGZModuleAViewControllerA.h in Headers */ = {isa = PBXBuildFile; fileRef = 20FE12D01F4F9214DD86253F19B4E34D /* GGZModuleAViewControllerA.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3CB51B5B7A1DFAC15201E37D90BB443 /* TestModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A81DC44BA1CC865C8A0E0E1F9BC3B0 /* TestModule-dummy.m */; };
+		F2F13F946C82CC62E228A0095B66E075 /* TALMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C095B57876AFE9D1B171475F45AEABE /* TALMediator.framework */; };
+		F44CEE7B28B7C8429BA3563EDF55FBFE /* CTMediator+GGZMediatorModuleA.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D50EBFE5BBBF153386768573B1CEB19 /* CTMediator+GGZMediatorModuleA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F6A172509AB50A10CE9792CB7C2AD621 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274C1F72FB72BCF3CA9C78BC6500F836 /* MapKit.framework */; };
-		FF3DA3331241813BAEDEA474C2664190 /* TALMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C095B57876AFE9D1B171475F45AEABE /* TALMediator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0BB9ABF5EBA1267E3B720CC0E1139D04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3258B8E50B1F580DBB866DF755A810FA;
+			remoteInfo = TALMediator;
+		};
 		36F9F21E9B1322AA992843F2E3C3D79C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -46,70 +54,55 @@
 			remoteGlobalIDString = 2CD6946FC9EB0E6D514E8E6BE036A760;
 			remoteInfo = TestModule;
 		};
-		C64520487CFC9D25F0CB8463616A59DA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3258B8E50B1F580DBB866DF755A810FA;
-			remoteInfo = TALMediator;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0407DE13687050E6B4AC99E26EA0B61D /* Pods-TestModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		117B9ED68F09D5D95240FA29B798646C /* TALMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TALMediator-dummy.m"; sourceTree = "<group>"; };
-		17C9B44C37B36A94ADA57C4510960FF8 /* TestModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TestModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		123B37597E128486D72C1CD54C6F94C3 /* TestModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TestModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		188196E454797554DB5944D96E14EB6F /* TestModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestModule-umbrella.h"; sourceTree = "<group>"; };
 		1BB5A08EB6C119AF9D5FB398A318108A /* TALMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TALMediator-prefix.pch"; sourceTree = "<group>"; };
 		1C095B57876AFE9D1B171475F45AEABE /* TALMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TALMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D2199E23F8A4E231D10E13304970F2E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		20FE12D01F4F9214DD86253F19B4E34D /* GGZModuleAViewControllerA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGZModuleAViewControllerA.h; path = TestModule/Classes/ModuleABussiness/GGZModuleAViewControllerA.h; sourceTree = "<group>"; };
+		1F6C92A9847DD3F4A807766B0C503668 /* TestModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestModule.xcconfig; sourceTree = "<group>"; };
 		274C1F72FB72BCF3CA9C78BC6500F836 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
-		2CF0D706175B8121D17E7AD0B48126A0 /* Target_ModelA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_ModelA.h; path = TestModule/Classes/TargetAction/Target_ModelA.h; sourceTree = "<group>"; };
+		2C9D6F83E856B92AB4566214C4507A30 /* GGZModuleAViewControllerA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGZModuleAViewControllerA.m; path = TestModule/Classes/ModuleABussiness/GGZModuleAViewControllerA.m; sourceTree = "<group>"; };
+		2D50EBFE5BBBF153386768573B1CEB19 /* CTMediator+GGZMediatorModuleA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+GGZMediatorModuleA.h"; path = "TestModule/Classes/MediatorCategary/CTMediator+GGZMediatorModuleA.h"; sourceTree = "<group>"; };
 		2DE2D5479D14F801A8D9873CBA1826E7 /* Pods-TestModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestModule_Example.release.xcconfig"; sourceTree = "<group>"; };
 		300E139FF766FFEE94680BD1896F55E8 /* Pods_TestModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestModule_Example.framework; path = "Pods-TestModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35A12812024B281CEEA2917666611E26 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		3ADEAEE8C1633D09D89131284410E648 /* TALMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TALMediator.modulemap; sourceTree = "<group>"; };
+		444198854FA57F215FB0A1DFB0543269 /* GGZComputerTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGZComputerTool.h; path = TestModule/Classes/ModuleABussiness/GGZComputerTool.h; sourceTree = "<group>"; };
 		48B82E9092C8DD006DFFB6B532E986D4 /* TALMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TALMediator.xcconfig; sourceTree = "<group>"; };
-		48EB012EFBB561B826F4C0B5609EE4BF /* TestModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TestModule.modulemap; sourceTree = "<group>"; };
-		4B81EC09F530DC9495F3520BA8256F4E /* TestModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TestModule-Info.plist"; sourceTree = "<group>"; };
 		511EE791E15E56C9406044D6E6C50C7D /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = TALMediator/Classes/CateGary/CTMediator.h; sourceTree = "<group>"; };
 		5CA8D778C57632E563B0CA491CFE5639 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = TALMediator/Classes/CateGary/CTMediator.m; sourceTree = "<group>"; };
-		5CE6B81F32E25DF152F72FBB9F5895B1 /* GGZComputerTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGZComputerTool.h; path = TestModule/Classes/ModuleABussiness/GGZComputerTool.h; sourceTree = "<group>"; };
-		629C3E9B73E204C321433736B94E546F /* TestModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestModule.xcconfig; sourceTree = "<group>"; };
-		65B7D6997988A6CFBA93068FAAB221E1 /* TestModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestModule-umbrella.h"; sourceTree = "<group>"; };
+		5FED121C3F0BC858563CD8BF3B4E9C31 /* Target_ModelA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_ModelA.m; path = TestModule/Classes/TargetAction/Target_ModelA.m; sourceTree = "<group>"; };
+		6560E3379CB816498CA2D4A52ED0F8F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		6A271CC889E553649748D08A0235D9EE /* TALMediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TALMediator-Info.plist"; sourceTree = "<group>"; };
+		6C92C8C7357E35C21B45762B9FE9BFD3 /* GGZComputerTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGZComputerTool.m; path = TestModule/Classes/ModuleABussiness/GGZComputerTool.m; sourceTree = "<group>"; };
 		6D0AFC1413053AA8BCB995767D4E03C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		6D8AB26019E2643E2373F703C8530FDF /* Pods-TestModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestModule_Example-frameworks.sh"; sourceTree = "<group>"; };
-		7019D9E80BC3748954909872060B86FC /* GGZComputerTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGZComputerTool.m; path = TestModule/Classes/ModuleABussiness/GGZComputerTool.m; sourceTree = "<group>"; };
 		772963A3C26469EA5C5BD0F51E25FFA3 /* Pods-TestModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		90FFDB250C5B399AA1248A86D650949F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		858BC865EE31243A75EB76A4BF8550B8 /* TestModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestModule-prefix.pch"; sourceTree = "<group>"; };
+		85FFBF8920B6E8ABAAC18224544A3661 /* Target_ModelA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_ModelA.h; path = TestModule/Classes/TargetAction/Target_ModelA.h; sourceTree = "<group>"; };
+		87643927AA50D28094F8E4A380F7B297 /* TestModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TestModule-dummy.m"; sourceTree = "<group>"; };
+		8DC21CEFD3518C6975369ED964AD1CE6 /* CTMediator+GGZMediatorModuleA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+GGZMediatorModuleA.m"; path = "TestModule/Classes/MediatorCategary/CTMediator+GGZMediatorModuleA.m"; sourceTree = "<group>"; };
 		99A3B8859F687BA53CC5B696BF079F6A /* Pods-TestModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestModule_Example-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2BD29FA8921DBE4752E6C429FF62982 /* Pods-TestModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestModule_Example-umbrella.h"; sourceTree = "<group>"; };
-		A4855AE120A224E691857360D4CD15E2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		A9C477B7DA26F49395FC18CC0F668B4E /* CTMediator+GGZMediatorModuleA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+GGZMediatorModuleA.h"; path = "TestModule/Classes/MediatorCategary/CTMediator+GGZMediatorModuleA.h"; sourceTree = "<group>"; };
-		B5A81DC44BA1CC865C8A0E0E1F9BC3B0 /* TestModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TestModule-dummy.m"; sourceTree = "<group>"; };
+		A801FC6B46E6DA35F336187CDDEFBBCB /* TestModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TestModule-Info.plist"; sourceTree = "<group>"; };
 		B6217509215A1F3196DE68CD12AE1168 /* Pods-TestModule_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestModule_Example-Info.plist"; sourceTree = "<group>"; };
 		BA6CCE1E383274FF409D6AB2FE96BBF3 /* TALMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TALMediator.framework; path = TALMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC1AA0C2246F239DF30A9BA190B32CC /* Pods-TestModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestModule_Example.modulemap"; sourceTree = "<group>"; };
-		DAFE0FE829CE3480A11680270E978442 /* Target_ModelA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_ModelA.m; path = TestModule/Classes/TargetAction/Target_ModelA.m; sourceTree = "<group>"; };
-		E438C20424A2C48AD4BD919B2766211D /* TestModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestModule-prefix.pch"; sourceTree = "<group>"; };
+		C0321E64F361419F92D492206A61CEC0 /* TestModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TestModule.modulemap; sourceTree = "<group>"; };
+		C70E63BAD80BA08AF371B97CD510A875 /* TargetActionEnum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TargetActionEnum.h; path = TestModule/Classes/MediatorCategary/TargetActionEnum.h; sourceTree = "<group>"; };
+		DEBF2DF70A05034AC9ECEDCB013B44B7 /* GGZModuleAViewControllerA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGZModuleAViewControllerA.h; path = TestModule/Classes/ModuleABussiness/GGZModuleAViewControllerA.h; sourceTree = "<group>"; };
 		E58BB30458ACC6890D22D1A1ACC1896C /* TALMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TALMediator-umbrella.h"; sourceTree = "<group>"; };
 		EECB89199091A05436D3B3A54C32406F /* TestModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TestModule.framework; path = TestModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E645BFFF829B59FE79F6CCA0D9EC1E /* Pods-TestModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		FE65905F538F55410EE4B09A00549665 /* CTMediator+GGZMediatorModuleA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+GGZMediatorModuleA.m"; path = "TestModule/Classes/MediatorCategary/CTMediator+GGZMediatorModuleA.m"; sourceTree = "<group>"; };
-		FEC9DFE302987C9FA97A631560D79EBD /* GGZModuleAViewControllerA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGZModuleAViewControllerA.m; path = TestModule/Classes/ModuleABussiness/GGZModuleAViewControllerA.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0745A7C0CF68E7BED8146AD47FBFF860 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C9123032834FA2712DDF466994F0258C /* Foundation.framework in Frameworks */,
-				FF3DA3331241813BAEDEA474C2664190 /* TALMediator.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		96024D5458E871EA818F4682AFC7FCB2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -128,6 +121,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F12E9EE4819FF7A38C90608F3FDACB11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C2BAAD3251FAB05AF981816D5A459D /* Foundation.framework in Frameworks */,
+				F2F13F946C82CC62E228A0095B66E075 /* TALMediator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -140,15 +142,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		18890E395EB7E4F0B36B669A80739A5D /* Support Files */ = {
+		28CA7A565D1E8D94F71F234F1C4261AD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				48EB012EFBB561B826F4C0B5609EE4BF /* TestModule.modulemap */,
-				629C3E9B73E204C321433736B94E546F /* TestModule.xcconfig */,
-				B5A81DC44BA1CC865C8A0E0E1F9BC3B0 /* TestModule-dummy.m */,
-				4B81EC09F530DC9495F3520BA8256F4E /* TestModule-Info.plist */,
-				E438C20424A2C48AD4BD919B2766211D /* TestModule-prefix.pch */,
-				65B7D6997988A6CFBA93068FAAB221E1 /* TestModule-umbrella.h */,
+				C0321E64F361419F92D492206A61CEC0 /* TestModule.modulemap */,
+				1F6C92A9847DD3F4A807766B0C503668 /* TestModule.xcconfig */,
+				87643927AA50D28094F8E4A380F7B297 /* TestModule-dummy.m */,
+				A801FC6B46E6DA35F336187CDDEFBBCB /* TestModule-Info.plist */,
+				858BC865EE31243A75EB76A4BF8550B8 /* TestModule-prefix.pch */,
+				188196E454797554DB5944D96E14EB6F /* TestModule-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/TestModule";
@@ -164,24 +166,13 @@
 			path = TALMediator;
 			sourceTree = "<group>";
 		};
-		4C15CA9E69A05363F8961985D2C4CED5 /* ModuleABussiness */ = {
+		4FF1F92D54FD2749789155C45B79F781 /* TargetAction */ = {
 			isa = PBXGroup;
 			children = (
-				5CE6B81F32E25DF152F72FBB9F5895B1 /* GGZComputerTool.h */,
-				7019D9E80BC3748954909872060B86FC /* GGZComputerTool.m */,
-				20FE12D01F4F9214DD86253F19B4E34D /* GGZModuleAViewControllerA.h */,
-				FEC9DFE302987C9FA97A631560D79EBD /* GGZModuleAViewControllerA.m */,
+				85FFBF8920B6E8ABAAC18224544A3661 /* Target_ModelA.h */,
+				5FED121C3F0BC858563CD8BF3B4E9C31 /* Target_ModelA.m */,
 			);
-			name = ModuleABussiness;
-			sourceTree = "<group>";
-		};
-		6E7237F1C78771D54B9C438C458876D9 /* MediatorCategary */ = {
-			isa = PBXGroup;
-			children = (
-				A9C477B7DA26F49395FC18CC0F668B4E /* CTMediator+GGZMediatorModuleA.h */,
-				FE65905F538F55410EE4B09A00549665 /* CTMediator+GGZMediatorModuleA.m */,
-			);
-			name = MediatorCategary;
+			name = TargetAction;
 			sourceTree = "<group>";
 		};
 		6F3CE1F294B4307DA0C3D90EF80007EA /* Categary */ = {
@@ -193,21 +184,23 @@
 			name = Categary;
 			sourceTree = "<group>";
 		};
+		70CB50513520236A3ECC6B0A820CD296 /* ModuleABussiness */ = {
+			isa = PBXGroup;
+			children = (
+				444198854FA57F215FB0A1DFB0543269 /* GGZComputerTool.h */,
+				6C92C8C7357E35C21B45762B9FE9BFD3 /* GGZComputerTool.m */,
+				DEBF2DF70A05034AC9ECEDCB013B44B7 /* GGZModuleAViewControllerA.h */,
+				2C9D6F83E856B92AB4566214C4507A30 /* GGZModuleAViewControllerA.m */,
+			);
+			name = ModuleABussiness;
+			sourceTree = "<group>";
+		};
 		80EC289617E41D61B0CA06263B77A53E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C904B603EBE9E8F09C5150D7FCE42D4B /* TestModule */,
+				CA7C5E49D200AA35D8B1268BAE5D6D93 /* TestModule */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		81F1A2A1F644727094CDE2C73C33A52A /* TargetAction */ = {
-			isa = PBXGroup;
-			children = (
-				2CF0D706175B8121D17E7AD0B48126A0 /* Target_ModelA.h */,
-				DAFE0FE829CE3480A11680270E978442 /* Target_ModelA.m */,
-			);
-			name = TargetAction;
 			sourceTree = "<group>";
 		};
 		89A566828A414B9B95200F2A9006B02F /* Support Files */ = {
@@ -234,6 +227,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		9CADC2A788741898EA1857E433A89AFB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				35A12812024B281CEEA2917666611E26 /* LICENSE */,
+				6560E3379CB816498CA2D4A52ED0F8F8 /* README.md */,
+				123B37597E128486D72C1CD54C6F94C3 /* TestModule.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		A01F9C34327BFCBDBC451D24C92EF29B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -250,14 +253,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C904B603EBE9E8F09C5150D7FCE42D4B /* TestModule */ = {
+		CA7C5E49D200AA35D8B1268BAE5D6D93 /* TestModule */ = {
 			isa = PBXGroup;
 			children = (
-				6E7237F1C78771D54B9C438C458876D9 /* MediatorCategary */,
-				4C15CA9E69A05363F8961985D2C4CED5 /* ModuleABussiness */,
-				EA488E18970C2E5684683FBF25E9306F /* Pod */,
-				18890E395EB7E4F0B36B669A80739A5D /* Support Files */,
-				81F1A2A1F644727094CDE2C73C33A52A /* TargetAction */,
+				F4D32F57680EC0C56B364A9565EE0EBE /* MediatorCategary */,
+				70CB50513520236A3ECC6B0A820CD296 /* ModuleABussiness */,
+				9CADC2A788741898EA1857E433A89AFB /* Pod */,
+				28CA7A565D1E8D94F71F234F1C4261AD /* Support Files */,
+				4FF1F92D54FD2749789155C45B79F781 /* TargetAction */,
 			);
 			name = TestModule;
 			path = ../..;
@@ -302,19 +305,32 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		EA488E18970C2E5684683FBF25E9306F /* Pod */ = {
+		F4D32F57680EC0C56B364A9565EE0EBE /* MediatorCategary */ = {
 			isa = PBXGroup;
 			children = (
-				90FFDB250C5B399AA1248A86D650949F /* LICENSE */,
-				A4855AE120A224E691857360D4CD15E2 /* README.md */,
-				17C9B44C37B36A94ADA57C4510960FF8 /* TestModule.podspec */,
+				2D50EBFE5BBBF153386768573B1CEB19 /* CTMediator+GGZMediatorModuleA.h */,
+				8DC21CEFD3518C6975369ED964AD1CE6 /* CTMediator+GGZMediatorModuleA.m */,
+				C70E63BAD80BA08AF371B97CD510A875 /* TargetActionEnum.h */,
 			);
-			name = Pod;
+			name = MediatorCategary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		48556F4EF387F044224611C6E459C7A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44CEE7B28B7C8429BA3563EDF55FBFE /* CTMediator+GGZMediatorModuleA.h in Headers */,
+				ACF6DFD5E5C435C4E38B7CAD7ECDDAA8 /* GGZComputerTool.h in Headers */,
+				9CFCDED9512FF438EDE25AFCE938C8F3 /* GGZModuleAViewControllerA.h in Headers */,
+				DFE3696911925E347E1B8DBB1AA4BAFD /* Target_ModelA.h in Headers */,
+				320000DF966D87C48509BCC54DD21769 /* TargetActionEnum.h in Headers */,
+				3548E746F9698DF3CEE2F48CAB847E6C /* TestModule-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8016ECC6AB4AF7DF2DAF5CDE475C51E2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -332,34 +348,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9238A3BBDF2E7C4DF529E8CEB3C59614 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4C86D81150736FF2AC30BA32376DA1AF /* CTMediator+GGZMediatorModuleA.h in Headers */,
-				6345BF676ABF461284D8DCEDA351E67D /* GGZComputerTool.h in Headers */,
-				E8F06688F6609144C0A547655BC159DE /* GGZModuleAViewControllerA.h in Headers */,
-				DD69B2F91F395D78B3B256B9C5DDBA20 /* Target_ModelA.h in Headers */,
-				C02BB6450A76989F6365F11128A0526B /* TestModule-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		2CD6946FC9EB0E6D514E8E6BE036A760 /* TestModule */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 71A50A7487C3A3664137A7CD84A86603 /* Build configuration list for PBXNativeTarget "TestModule" */;
+			buildConfigurationList = 5C459CD4EC7EF785CA06182CA0179784 /* Build configuration list for PBXNativeTarget "TestModule" */;
 			buildPhases = (
-				9238A3BBDF2E7C4DF529E8CEB3C59614 /* Headers */,
-				8064C21D4F864028BA31CD1D4F0409B2 /* Sources */,
-				0745A7C0CF68E7BED8146AD47FBFF860 /* Frameworks */,
-				B13373D0C070B6580E758E5E91C3F2D1 /* Resources */,
+				48556F4EF387F044224611C6E459C7A4 /* Headers */,
+				DCDBCD52503B9B8DC4C3E4F8DCEA4511 /* Sources */,
+				F12E9EE4819FF7A38C90608F3FDACB11 /* Frameworks */,
+				FA7BBBD8CA0B5817F9A822F7250BDBF0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B1A396E7FE6D4E874437EDBE921B7F7F /* PBXTargetDependency */,
+				2019870496EC4519FC6F4799D2AFCE95 /* PBXTargetDependency */,
 			);
 			name = TestModule;
 			productName = TestModule;
@@ -448,7 +452,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B13373D0C070B6580E758E5E91C3F2D1 /* Resources */ = {
+		FA7BBBD8CA0B5817F9A822F7250BDBF0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -467,15 +471,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8064C21D4F864028BA31CD1D4F0409B2 /* Sources */ = {
+		DCDBCD52503B9B8DC4C3E4F8DCEA4511 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68D8BB7717FFAFCEDA6A3675CCDE889C /* CTMediator+GGZMediatorModuleA.m in Sources */,
-				915D08F15C8B5F1F5200E7E7EFEE6F0B /* GGZComputerTool.m in Sources */,
-				E4030E67BA5CF929B1E7208801B0BADE /* GGZModuleAViewControllerA.m in Sources */,
-				360D969A5DE9E6114A919C7EFD707674 /* Target_ModelA.m in Sources */,
-				F3CB51B5B7A1DFAC15201E37D90BB443 /* TestModule-dummy.m in Sources */,
+				C8FB881A23A7A6A4FE35B4CAFFB8FE6F /* CTMediator+GGZMediatorModuleA.m in Sources */,
+				1E9A223AA219D6E57052BB317958B8D8 /* GGZComputerTool.m in Sources */,
+				A5A0E8AE4C7EAE6E3DB48A52C05E4E88 /* GGZModuleAViewControllerA.m in Sources */,
+				27DF6D847CDA53AC83F3BB60ED392ED0 /* Target_ModelA.m in Sources */,
+				CF9579E9D547C54884CF10747C1ACFE8 /* TestModule-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,17 +500,17 @@
 			target = 2CD6946FC9EB0E6D514E8E6BE036A760 /* TestModule */;
 			targetProxy = 4F51B43AD7857E02475201E358A64FC7 /* PBXContainerItemProxy */;
 		};
+		2019870496EC4519FC6F4799D2AFCE95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TALMediator;
+			target = 3258B8E50B1F580DBB866DF755A810FA /* TALMediator */;
+			targetProxy = 0BB9ABF5EBA1267E3B720CC0E1139D04 /* PBXContainerItemProxy */;
+		};
 		635B76A99A654F8065C3D70E73FD2F62 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TALMediator;
 			target = 3258B8E50B1F580DBB866DF755A810FA /* TALMediator */;
 			targetProxy = 36F9F21E9B1322AA992843F2E3C3D79C /* PBXContainerItemProxy */;
-		};
-		B1A396E7FE6D4E874437EDBE921B7F7F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TALMediator;
-			target = 3258B8E50B1F580DBB866DF755A810FA /* TALMediator */;
-			targetProxy = C64520487CFC9D25F0CB8463616A59DA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -604,6 +608,37 @@
 			};
 			name = Release;
 		};
+		542D9E1E3F61F9715E17B967A95AC78A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F6C92A9847DD3F4A807766B0C503668 /* TestModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TestModule/TestModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TestModule/TestModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TestModule/TestModule.modulemap";
+				PRODUCT_MODULE_NAME = TestModule;
+				PRODUCT_NAME = TestModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		54785587CE2021924D32C5818C6DEB65 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 48B82E9092C8DD006DFFB6B532E986D4 /* TALMediator.xcconfig */;
@@ -700,9 +735,9 @@
 			};
 			name = Debug;
 		};
-		BB9AB071146DDEACEF020E8FF113B7CA /* Debug */ = {
+		CA25B91C0FD73BD6859F8F8DCFFAA702 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 629C3E9B73E204C321433736B94E546F /* TestModule.xcconfig */;
+			baseConfigurationReference = 1F6C92A9847DD3F4A807766B0C503668 /* TestModule.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -726,10 +761,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		DE857026DF7740B36B0ECE7EFE0AFD6E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -796,38 +832,6 @@
 			};
 			name = Debug;
 		};
-		FFBE25308EA006173672A724C3297A00 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 629C3E9B73E204C321433736B94E546F /* TestModule.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TestModule/TestModule-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TestModule/TestModule-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TestModule/TestModule.modulemap";
-				PRODUCT_MODULE_NAME = TestModule;
-				PRODUCT_NAME = TestModule;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -849,11 +853,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		71A50A7487C3A3664137A7CD84A86603 /* Build configuration list for PBXNativeTarget "TestModule" */ = {
+		5C459CD4EC7EF785CA06182CA0179784 /* Build configuration list for PBXNativeTarget "TestModule" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BB9AB071146DDEACEF020E8FF113B7CA /* Debug */,
-				FFBE25308EA006173672A724C3297A00 /* Release */,
+				542D9E1E3F61F9715E17B967A95AC78A /* Debug */,
+				CA25B91C0FD73BD6859F8F8DCFFAA702 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

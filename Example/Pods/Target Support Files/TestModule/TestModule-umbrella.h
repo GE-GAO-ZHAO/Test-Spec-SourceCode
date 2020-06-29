@@ -11,6 +11,7 @@
 #endif
 
 #import "CTMediator+GGZMediatorModuleA.h"
+#import "TargetActionEnum.h"
 #import "GGZComputerTool.h"
 #import "GGZModuleAViewControllerA.h"
 #import "Target_ModelA.h"
